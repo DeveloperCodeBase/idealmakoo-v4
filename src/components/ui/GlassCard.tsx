@@ -6,7 +6,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 export interface GlassCardProps {
   children: React.ReactNode;
   variant?: 'showcase-3d' | 'workspace-2d' | 'elevated-modal';
-  glowColor?: 'blue' | 'emerald' | 'none';
+  glowColor?: 'blue' | 'emerald' | 'amber' | 'none';
   className?: string;
   interactiveControlsInside?: boolean;
 }
@@ -46,6 +46,8 @@ export const GlassCard: React.FC<GlassCardProps> = ({
       ? 'hover:border-cyan-400/45 hover:shadow-neon-blue'
       : glowColor === 'emerald'
       ? 'hover:border-emerald-400/45 hover:shadow-neon-emerald'
+      : glowColor === 'amber'
+      ? 'hover:border-amber-400/45 hover:shadow-neon-amber'
       : 'hover:border-white/20 dark:hover:border-white/20';
 
   const surfaceClass =
