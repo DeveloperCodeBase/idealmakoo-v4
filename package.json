@@ -6,7 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:migrate": "drizzle-kit push",
+    "db:seed": "echo 'Seed script placeholder (executes queries to DB)'",
+    "ops:preflight": "echo 'Preflight check placeholder'",
+    "ops:backup": "echo 'Backup placeholder'",
+    "ops:restore:verify": "echo 'Restore verify placeholder'",
+    "ops:release": "echo 'Release script placeholder'",
+    "ops:rollback": "echo 'Rollback script placeholder'",
+    "ops:smoke": "echo 'Smoke tests placeholder'"
   },
   "dependencies": {
     "dotenv": "^18.0.8",

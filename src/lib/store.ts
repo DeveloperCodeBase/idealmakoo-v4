@@ -208,5 +208,13 @@ export const mockDemoAccounts = [
   { id: 'usr_1', role: 'customer', email: 'demo.customer@idealmako.invalid', name: 'مشتری دمو' },
   { id: 'usr_2', role: 'superAdmin', email: 'demo.superadmin@idealmako.invalid', name: 'مدیر ارشد' },
   { id: 'usr_3', role: 'admin', email: 'demo.admin@idealmako.invalid', name: 'مدیر عملیاتی' },
+  { id: 'usr_4', role: 'contentEditor', email: 'demo.editor@idealmako.invalid', name: 'ویراستار محتوا' },
+  { id: 'usr_5', role: 'productManager', email: 'demo.pm@idealmako.invalid', name: 'مدیر محصول' },
+  { id: 'usr_6', role: 'scientificReviewer', email: 'demo.reviewer@idealmako.invalid', name: 'بازبین علمی' },
+  { id: 'usr_7', role: 'translator', email: 'demo.translator@idealmako.invalid', name: 'مترجم ۵ زبانه' },
+  { id: 'usr_8', role: 'publisher', email: 'demo.publisher@idealmako.invalid', name: 'ناشر' },
+  { id: 'usr_9', role: 'hr', email: 'demo.hr@idealmako.invalid', name: 'منابع انسانی' },
   { id: 'usr_10', role: 'business', email: 'demo.business@idealmako.invalid', name: 'کارشناس فروش' },
+  { id: 'usr_11', role: 'analyst', email: 'demo.analyst@idealmako.invalid', name: 'تحلیلگر گزارش‌ها' },
+  { id: 'usr_12', role: 'support', email: 'demo.support@idealmako.invalid', name: 'پشتیبانی' },
 ];
