@@ -1,0 +1,41 @@
+{
+  "name": "next_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "drizzle-kit push",
+    "db:seed": "echo 'Seed script placeholder (executes queries to DB)'",
+    "ops:preflight": "echo 'Preflight check placeholder'",
+    "ops:backup": "echo 'Backup placeholder'",
+    "ops:restore:verify": "echo 'Restore verify placeholder'",
+    "ops:release": "echo 'Release script placeholder'",
+    "ops:rollback": "echo 'Rollback script placeholder'",
+    "ops:smoke": "echo 'Smoke tests placeholder'"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "drizzle-orm": "^0.45.4",
+    "framer-motion": "^14.3.0",
+    "lucide-react": "^1.59.0",
+    "next": "14.2.35",
+    "postgres": "^3.4.9",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
